@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.js": "./static/js/main.ab266db1.js",
+    "MFE1.js": "./remote-bmart-catalogue/bmart-catalogue-mf.js",
+    "static/js/453.e68ca22c.chunk.js": "./static/js/453.e68ca22c.chunk.js",
+    "index.html": "./index.html",
+    "main.ab266db1.js.map": "./static/js/main.ab266db1.js.map",
+    "bmart-catalogue-mf.js.map": "./remote-bmart-catalogue/bmart-catalogue-mf.js.map",
+    "453.e68ca22c.chunk.js.map": "./static/js/453.e68ca22c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.ab266db1.js"
+  ]
+}
