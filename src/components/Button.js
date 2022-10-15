@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Button = () => (
-  <button>Wow Super  Button</button>
+  <button>Wow Microfrontend  Button</button>
 );
 
 export default Button;

@@ -572,7 +572,7 @@ module.exports = function (webpackEnv) {
             './bmart-catalogue-button':
               './src/components/Button',
             './bmart-catalogue-module':
-            './src',
+            './src/app',
           },
         }
       ),
