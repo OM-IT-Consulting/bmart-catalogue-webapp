@@ -569,8 +569,10 @@ module.exports = function (webpackEnv) {
           filename:
             'bmart-catalogue-mf.js',
           exposes: {
-            './bmart-catalogue':
+            './bmart-catalogue-button':
               './src/components/Button',
+            './bmart-catalogue-module':
+            './src',
           },
         }
       ),

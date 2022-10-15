@@ -156,6 +156,6 @@ new ModuleFederationPlugin(
         }
       )
 
-4) In the /tmp/microfrontend/ directory do the below
+4) In the /tmp/microfrontend directory do the below
 
     python -m http.server 3001

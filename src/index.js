@@ -7,8 +7,13 @@ import { Provider } from 'react-redux';
 const store = configureStore();
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(
-  <Provider store={store}>
-      <App/>
-  </Provider>
-);
+export const renderComponent = () => {
+  root.render(
+    <Provider store={store}>
+        <App/>
+    </Provider>
+  );
+}
+
+const defaultComponent = renderComponent();
+export default defaultComponent;
