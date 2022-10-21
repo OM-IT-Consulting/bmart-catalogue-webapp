@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client';
 import App from './routes';
 import configureStore from './store';
 import { Provider } from 'react-redux';
+import MFIntegration from './features/samplepages/mfintegration';
+import Application from './features/samplepages/application';
 
 const store = configureStore();
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -16,10 +18,11 @@ const renderComponent = () => {
 }
 
 //const defaultComponent = renderComponent();
-export default renderComponent;
+//export default renderComponent;
 
 const Button = () => (
-    <button>Wow App  Button</button>
+    <button>App Microfrontend  Button</button>
 );
-  
-//export default Button;
+
+
+export default Button;

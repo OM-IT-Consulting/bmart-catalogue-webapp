@@ -568,12 +568,13 @@ module.exports = function (webpackEnv) {
           name: 'MFE1',
           filename:
             'bmart-catalogue-mf.js',
+          library:{type:'var',name:'MFE1'},
           exposes: {
             './bmart-catalogue-button':
-              './src/components/Button',
+            './src/components/Button',
             './bmart-catalogue-module':
             './src/app',
-          },
+          }
         }
       ),
       // Generates an `index.html` file with the <script> injected.
